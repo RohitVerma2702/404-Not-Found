@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'SpaceMono-Regular';
+    src: url('../font/SpaceMono-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SpaceMono-Regular';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .image, .container .notfound{
+    width: 50%;
+    height: 100%;
+    /* padding: 5%; */
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 80%;
+}
+
+.notfound{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notfound h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 94.78px;
+}
+
+.notfound p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.notfound .btn{
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
